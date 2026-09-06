@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": {
+      "model":  "oreadditions:block/tin_ore"
+    }
+
+  }
+}

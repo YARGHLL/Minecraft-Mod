@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 10,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "oreadditions:tin_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "oreadditions:tin"
+  }
+}

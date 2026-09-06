@@ -1,7 +1,12 @@
 {
 
-  "item.oreadditions.silver": "Silver",
+  "item.oreadditions.silver": "silver",
+  "item.oreadditions.tin": "tin",
+  "item.oreadditions.bronze": "bronze",
+  "item.oreadditions.raw_tin": "raw tin",
+  "item.oreadditions.raw_silver": "raw silver",
 
 
-  "block.oreadditions.silver_ore": "Block of Silver Ore"
+  "block.oreadditions.silver_ore": "Block of Silver Ore",
+  "block.oreadditions.tin_ore": "Block of Tin Ore"
 }

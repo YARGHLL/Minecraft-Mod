@@ -104,10 +104,15 @@ public class OreAdditions {
 
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SILVER);   //Adding silver to the game
+            event.accept(ModItems.TIN);  //Adding tin to the game
+            event.accept(ModItems.RAW_SILVER);   //Adding raw_silver to the game
+            event.accept(ModItems.RAW_TIN);  //Adding raw_tin to the game
+            event.accept(ModItems.BRONZE); //Adding Bronze to the game
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SILVER_ORE);
+            event.accept(ModBlocks.TIN_ORE);
         }
     }
 

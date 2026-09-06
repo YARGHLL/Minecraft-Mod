@@ -22,6 +22,10 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> SILVER_ORE = registerBlock("silver_ore", ()-> new DropExperienceBlock(UniformInt.of(2,4), BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> TIN_ORE = registerBlock("tin_ore", ()-> new DropExperienceBlock(UniformInt.of(2,4), BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
       DeferredBlock<T> toReturn = BLOCKS.register(name, block);
       registerBlockItem(name, toReturn);   //Registering block item associated with deferred block

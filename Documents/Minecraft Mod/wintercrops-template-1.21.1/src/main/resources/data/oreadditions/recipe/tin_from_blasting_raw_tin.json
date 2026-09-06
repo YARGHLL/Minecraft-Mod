@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 5,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "oreadditions:raw_tin"
+  },
+  "result": {
+    "count": 1,
+    "id": "oreadditions:tin"
+  }
+}
