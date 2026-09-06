@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 0.5,
+  "group": "silver",
+  "ingredient": {
+    "item": "oreadditions:raw_silver"
+  },
+  "result": {
+    "count": 1,
+    "id": "oreadditions:silver"
+  }
+}
