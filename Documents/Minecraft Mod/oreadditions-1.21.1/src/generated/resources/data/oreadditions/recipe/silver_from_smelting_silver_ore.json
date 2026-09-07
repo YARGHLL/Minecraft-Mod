@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "silver",
+  "ingredient": {
+    "item": "oreadditions:silver_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "oreadditions:silver"
+  }
+}
